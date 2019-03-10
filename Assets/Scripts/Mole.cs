@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Mole : MonoBehaviour
 {
-    public float visibleHeight= 0.3f;
-    public float hiddenHeight= -0.5f;
+    public float visibleHeight= 2.0f;
+    public float hiddenHeight= -1.0f;
     public float speed= 4f;
-    public float disappearDuration= 0.5f;
+    public float disappearDuration= 1f;
     
     private Vector3 targetPosition;
     private float disappearTimer= 0f;
